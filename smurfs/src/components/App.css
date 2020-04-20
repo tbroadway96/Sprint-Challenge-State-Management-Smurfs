@@ -1,3 +1,31 @@
+html {
+  background-color: slategrey;
+}
+
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.smurfs {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.smurf {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  border: 5px solid red;
+  border-radius: 15px;
+  margin: 10px;
+  width: 200px;
 }
